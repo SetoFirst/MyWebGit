@@ -1,0 +1,27 @@
+พิมพ์ Git Bash ใน Search หรือเปิด Termianl ใน VS
+คำสั่งกำหนด Name
+git config --global user.name "ใส่ชื่อ"
+
+คำสั่งกำหนด Email
+git config --global user.email "ใส่ email"
+
+เช็คดูคำสั่ง
+git config --list
+
+การค้นหาแหล่งที่เราจะใช้ git
+cd ตามด้วยโฟเดอร์ที่เราจะใช้งาน
+
+เป็นการเริ่มใช่งาน git
+git init
+
+การดูสถานะใน git
+git status
+
+เป็นการเพิ่มตัวไฟล์ให้อยู่ในพื้นที่
+git add ตามด้วยชื่อไฟล์ หรือ git add .
+
+การนำไฟล์ออกจากสถานะสเตจ
+git rm --cached ตามด้วยชื่อไฟล์
+
+คำสั่งที่ยกเลิกการแก้ไขเมื่อไฟล์อยู่ในสถานะ Modified ให้กลับไปเป็นเหมือนเดิมก่อนแก้ไข
+git restore
